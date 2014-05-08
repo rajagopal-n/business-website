@@ -1,0 +1,282 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+	font-family: arial;
+	font-size: 10pt;
+	
+}
+ol, ul {
+	list-style: none;
+	/* position: fixed; */
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+header{
+	/* background-color: rgba(172, 76, 92, 0); 
+	margin-left: 25px;
+	margin-right: 25px;
+	margin-top: 15px;*/
+	/* border-color: rgba(235, 68, 15, 0.85); */
+	/* border-width: thin; */
+	/* border-style: initial; */
+	background: url("images/bg_main.jpg") no-repeat scroll center top transparent;
+	height: 750px;
+	position: relative;
+}
+
+header img {
+
+position: relative;
+
+
+margin-left: 650px;
+
+
+margin-top: 10px;
+
+}
+
+header a {
+text-decoration: none;
+color: #FFFFFF;
+position: relative;
+padding-left: .78%;
+/* padding-top: 25px; */
+font-family: fantasy;
+font-size: 30px;
+line-height: 33px;
+/* background: url("images/dot.gif") no-repeat scroll right 9px transparent; */
+padding: 0px 1px;
+
+}
+
+header a:hover{
+	color: #F3B20B;
+	/* border-bottom: 5px solid rgb(255, 227, 79); */
+	font-size: 40px;
+}
+
+#heading li{
+	display:inline;
+
+}
+.topnav{
+    position: relative;
+	
+    padding-left: 25px;
+	
+    padding-top: 0px;
+
+    margin-right: 200px;
+	
+    margin: auto;
+
+}
+.menu{
+	float: right;
+	margin-top: 7%;
+	margin-right: 15%;
+}
+.aboutus{
+	position: relative;
+	height: 750px;
+	background: url("images/bg_aboutus.jpg") no-repeat scroll center top transparent;
+
+}
+
+.content_inner {
+    width: 700px;
+    float: right;
+    overflow: hidden;
+    padding: 0px 0px 10px 22px;
+    margin-right: 100px;
+    margin-top: 100px;
+}
+
+.content_inner .about {
+    width: 654px;
+    position: relative;
+    left: 13px;
+    padding: 20px 20px 20px 20px;
+    background-color: #4F4223;
+}
+.content_inner p{
+font-size: 25px;
+font-family: Arial,Helvetica,sans-serif;
+color: rgb(253, 255, 255);
+padding: 10px 1px 25px;
+/* line-height: 14px; */
+text-align: justify;
+}
+
+#home{
+	margin-left: 30%;
+}
+
+#home p{
+font-size: 30px;
+line-height: 3px;
+text-align: left;
+
+font-family: 'RalewayThin';
+line-height: 30px;
+color: rgb(255, 255, 255);
+margin: 120px 0px 20px 400px;
+clear: both;
+width: 50%;
+
+font-weight: bolder;
+}
+
+.services{
+	position: relative;
+	height: 740px;
+	width: 100%;
+	margin-top: 0px;
+	background: url("images/bg_services.jpg") no-repeat scroll center top transparent;
+
+}
+
+#listofServices{
+	width: 25%;
+	padding: 0px 0px 20px 22px;
+	margin-left: 40%;
+	margin-top: 75px;
+	position: relative;
+}
+
+#listofServices a{
+	text-decoration: none;
+color: #FFFFFF;
+position: relative;
+padding-left: .78%;
+/* padding-top: 25px; */
+font-family: fantasy;
+font-size: 30px;
+line-height: 33px;
+/* background: url("images/dot.gif") no-repeat scroll right 9px transparent; */
+padding: 0px 1px;
+
+}
+
+
+#listofServices a:hover{
+	
+	color: #F3B20B;
+	/* border-bottom: 5px solid rgb(255, 227, 79); */
+	font-size: 40px;
+
+}
+
+#serviceheading{
+    text-align: center;
+    /* margin: auto; */
+    font-family: fantasy;
+    color: white;
+    font-size: 40px;
+    /* margin-top: 400px; */
+    padding-right: 100px;
+
+    padding-top: 100px;
+}
+#aboutheading{
+    text-align: center;
+    margin: auto;
+    font-family: fantasy;
+    color: white;
+    font-size: 40px;
+    }
+
+ .contact{
+	position: relative;
+	
+	height: 735px;
+	width: 100%;
+	background: url("images/bg_contact_us.jpg") no-repeat scroll center top transparent;
+
+}
+
+#pagefooter{
+	clear: both;
+}
+
+#contactContent{
+	width: 654px;
+	position: absolute;
+	margin-top: 100px;
+	margin-left: 50%;
+	float: right;
+	height: 400px;
+	padding: 20px 20px 20px 20px;
+	background-color: rgba(72, 65, 60, 0);
+}
+
+#contactContent p{
+font-size: 25px;
+font-family: Arial,Helvetica,sans-serif;
+color: rgb(253, 255, 255);
+padding: 10px 1px 25px;
+/* line-height: 14px; */
+text-align: justify;
+}
+
+#contactHeading{
+    text-align: center;
+    margin: auto;
+    font-family: fantasy;
+    color: #A52A2A;
+    font-size: 40px;
+    }
+.contactlinks{
+	text-decoration: none;
+    margin: auto;
+    font-family: fantasy;
+    color: #A52A2A;
+    font-size: 40px;
+}
+
+#contactContent a:hover{
+	color: rgb(242, 248, 250);
+}
+#contactContent li{
+	text-align: center;
